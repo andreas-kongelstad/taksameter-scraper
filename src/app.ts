@@ -255,6 +255,20 @@ let createFlatFile = async () => {
 }
 
 
+function compare(a, b) {
+  // Use toUpperCase() to ignore character casing
+  const genreA = a.id.toUpperCase();
+  const genreB = b.id.toUpperCase();
+
+  let comparison = 0;
+  if (genreA > genreB) {
+    comparison = 1;
+  } else if (genreA < genreB) {
+    comparison = -1;
+  }
+  return comparison;
+}
+
 createFlatFile().then((tollbothList: Array<TollBoth>) => { 
   
   var index = 1;
@@ -266,7 +280,7 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
       group.rushhour.forEach(rushhour => {
         group.tax.forEach(tax => {
           var tollbothRow = new TollbothRow()
-          tollbothRow.index = index++;
+          //tollbothRow.index = index++;
           tollbothRow.id = tollboth.id;
           tollbothRow.name = tollboth.name;
           tollbothRow.barrier = tollboth.barrier;
@@ -302,19 +316,18 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
   //   });
   // }
 
-
-  fs.writeFile(__dirname + '/barriers_flat.txt', 'index;id;name;barrier;tariffType;tariffGroupId;tariffGroupName;tariffGroupRushHourStart;tariffGroupRushHourEnd;tariffGroupTaxName;tariffGroupTaxRateLow;tariffGroupTaxRateLow;geometryType;geometryLatitude;geometryLongitude\r\n', function(err) {
+  fs.writeFile(__dirname + '/barriers_flat.csv', 'id;name;barrier;tariffType;tariffGroupId;tariffGroupName;tariffGroupRushHourStart;tariffGroupRushHourEnd;tariffGroupTaxName;tariffGroupTaxRateLow;tariffGroupTaxRateLow;geometryType;geometryLatitude;geometryLongitude\r\n', function(err) {
     if (err) throw err;
   });
 
   for(let i = 0; i < tollbothRows.length; i++) {
-    var linefeed = '\r\n';
+    var linefeed = '\n';
     if(tollbothRows.length-1 == i) {
       linefeed = '' 
     }
 
     //tollbothRows[i].index = i;
-    fs.appendFile(__dirname + '/barriers_flat.txt', tollbothRows[i].toString(';') + linefeed, function (err) {
+    fs.appendFile(__dirname + '/barriers_flat.csv', tollbothRows[i].toString(';') + linefeed, function (err) {
       if (err) throw err;
     });
   }

@@ -1,5 +1,4 @@
 export class TollbothRow {
-    index: number;
     id: string;
     name: string;
     barrier: string;
@@ -16,7 +15,7 @@ export class TollbothRow {
     geometryLongitude: number;
     constructor() {} 
     public toString = (deliminator: string) : string => {
-        return `${this.index}${deliminator}${this.id}${deliminator}${this.name}${deliminator}${this.barrier}${deliminator}${this.tariffType}${deliminator}${this.tariffGroupId}${deliminator}${this.tariffGroupName}${deliminator}${this.tariffGroupRushHourStart}${deliminator}${this.tariffGroupRushHourEnd}${deliminator}${this.tariffGroupTaxName}${deliminator}${this.tariffGroupTaxRateLow}${deliminator}${this.tariffGroupTaxRateHigh}${deliminator}${this.geometryType}${deliminator}${this.geometryLatitude}${deliminator}${this.geometryLongitude}`;
+        return `${this.id}${deliminator}${this.name}${deliminator}${this.barrier}${deliminator}${this.tariffType}${deliminator}${this.tariffGroupId}${deliminator}${this.tariffGroupName}${deliminator}${this.tariffGroupRushHourStart}${deliminator}${this.tariffGroupRushHourEnd}${deliminator}${this.tariffGroupTaxName}${deliminator}${this.tariffGroupTaxRateLow}${deliminator}${this.tariffGroupTaxRateHigh}${deliminator}${this.geometryType}${deliminator}${this.geometryLatitude}${deliminator}${this.geometryLongitude}`;
     } 
   }
 
