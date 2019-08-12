@@ -316,21 +316,44 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
   //   });
   // }
 
-  fs.writeFile(__dirname + '/barriers_flat.csv', 'id;name;barrier;tariffType;tariffGroupId;tariffGroupName;tariffGroupRushHourStart;tariffGroupRushHourEnd;tariffGroupTaxName;tariffGroupTaxRateLow;tariffGroupTaxRateLow;geometryType;geometryLatitude;geometryLongitude\r\n', function(err) {
+  // FLAT JSON FILE
+  fs.writeFile(__dirname + '/barriers_flat.json', '[\n', function(err) {
     if (err) throw err;
   });
 
   for(let i = 0; i < tollbothRows.length; i++) {
-    var linefeed = '\n';
+    var linefeed = ',\n';
     if(tollbothRows.length-1 == i) {
       linefeed = '' 
     }
 
     //tollbothRows[i].index = i;
-    fs.appendFile(__dirname + '/barriers_flat.csv', tollbothRows[i].toString(';') + linefeed, function (err) {
+    fs.appendFile(__dirname + '/barriers_flat.json', '\t' + JSON.stringify(tollbothRows[i]) + linefeed, function (err) {
       if (err) throw err;
     });
   }
+
+  fs.appendFile(__dirname + '/barriers_flat.json', '\n]', function (err) {
+    if (err) throw err;
+  });
+
+
+  // FLAT TEXT FILE
+  // fs.writeFile(__dirname + '/barriers_flat.csv', 'id;name;barrier;tariffType;tariffGroupId;tariffGroupName;tariffGroupRushHourStart;tariffGroupRushHourEnd;tariffGroupTaxName;tariffGroupTaxRateLow;tariffGroupTaxRateLow;geometryType;geometryLatitude;geometryLongitude\r\n', function(err) {
+  //   if (err) throw err;
+  // });
+
+  // for(let i = 0; i < tollbothRows.length; i++) {
+  //   var linefeed = '\n';
+  //   if(tollbothRows.length-1 == i) {
+  //     linefeed = '' 
+  //   }
+
+  //   //tollbothRows[i].index = i;
+  //   fs.appendFile(__dirname + '/barriers_flat.csv', tollbothRows[i].toString(';') + linefeed, function (err) {
+  //     if (err) throw err;
+  //   });
+  // }
 
     //console.log(tollbothRows);
     console.log('Done!');

@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon --exec ts-node src/app.ts --ignore barriers.json",
+    "dev": "nodemon --exec ts-node src/app.ts --ignore barriers.json --ignore barriers_flat.json --ignore barriers_flat.csv",
     "build": "tsc"
   },
   "author": "",
