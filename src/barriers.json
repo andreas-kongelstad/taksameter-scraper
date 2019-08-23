@@ -1,7 +1,7 @@
 [{
- "id": "tpe2cfrmmgn",
+ "id": "welnpt8mo09",
  "name": "Pårampe Granfoss fra E18",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -20,49 +20,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -85,28 +85,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -124,9 +124,9 @@
   ]
  }
 },{
- "id": "jgtsdgvefy",
+ "id": "3jj3bvp46jb",
  "name": "Pårampe E18 fra Lysakerlokket",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -145,49 +145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -210,28 +210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -249,9 +249,9 @@
   ]
  }
 },{
- "id": "tig0416jii",
+ "id": "fpb4ub1sh8w",
  "name": "Rampe Lysaker til E18",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -270,49 +270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -335,28 +335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -374,9 +374,9 @@
   ]
  }
 },{
- "id": "0lvan3xh5w6e",
+ "id": "2x4hjgia9fc",
  "name": "Strandveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -395,49 +395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -460,28 +460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -499,9 +499,9 @@
   ]
  }
 },{
- "id": "fy6gmfsnlhc",
+ "id": "gqifx31h007",
  "name": "Rampe Fornebu til E18",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -520,49 +520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -585,28 +585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -624,9 +624,9 @@
   ]
  }
 },{
- "id": "1inpzvga3i1",
+ "id": "o3rxeqem0ug",
  "name": "Pårampe Granfoss fra Fornebu",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -645,49 +645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -710,28 +710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -749,9 +749,9 @@
   ]
  }
 },{
- "id": "svoxhodi3v",
+ "id": "7wuky8bmr5x",
  "name": "E18 hovedløp",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -770,49 +770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -835,28 +835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -874,9 +874,9 @@
   ]
  }
 },{
- "id": "rruk3xd8ule",
+ "id": "w8b35b1n3q8",
  "name": "Bærumsveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -895,49 +895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -960,28 +960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -999,9 +999,9 @@
   ]
  }
 },{
- "id": "w0tkp1ui497",
+ "id": "427svozf63",
  "name": "Griniveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -1020,49 +1020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -1085,28 +1085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -1124,9 +1124,9 @@
   ]
  }
 },{
- "id": "4ecowvn07t7",
+ "id": "hvt46g1ggxw",
  "name": "E18 Maritim",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -1145,49 +1145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -1210,28 +1210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -1249,9 +1249,9 @@
   ]
  }
 },{
- "id": "pxwb5ot9x4",
+ "id": "i5d6tkgdq2",
  "name": "Avkjøring fra E6 til Strømsveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -1270,49 +1270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -1335,28 +1335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -1374,9 +1374,9 @@
   ]
  }
 },{
- "id": "fyza15swq35",
+ "id": "ydnuj8mmec",
  "name": "E18 Bygdøylokket",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -1395,49 +1395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -1460,28 +1460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -1499,9 +1499,9 @@
   ]
  }
 },{
- "id": "5jpewhbe2cr",
+ "id": "hi4bvdrciia",
  "name": "E6 Furuset",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -1520,49 +1520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -1585,28 +1585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -1624,9 +1624,9 @@
   ]
  }
 },{
- "id": "tp7ezrd7u7",
+ "id": "r72d6ogczm",
  "name": "Slemdalsveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -1645,49 +1645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -1710,28 +1710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -1749,9 +1749,9 @@
   ]
  }
 },{
- "id": "tpfeue83w2",
+ "id": "owd4g8gmhx",
  "name": "E18 Påkjøring",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -1770,49 +1770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -1835,28 +1835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -1874,9 +1874,9 @@
   ]
  }
 },{
- "id": "uk5goxzrggo",
+ "id": "gvmvsz3yawo",
  "name": "Ekerbergveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -1895,49 +1895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -1960,28 +1960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -1999,9 +1999,9 @@
   ]
  }
 },{
- "id": "5isvmolcgol",
+ "id": "bsdlugt5kko",
  "name": "Kongsveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -2020,49 +2020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -2085,28 +2085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -2124,9 +2124,9 @@
   ]
  }
 },{
- "id": "wzv2ckhtge9",
+ "id": "rxn0r9fa32",
  "name": "Tvetenveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -2145,49 +2145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -2210,28 +2210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -2249,9 +2249,9 @@
   ]
  }
 },{
- "id": "8w5ccy9t284",
+ "id": "hmz4ccqik4k",
  "name": "Karenslyst Allé",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -2270,49 +2270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -2335,28 +2335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -2374,9 +2374,9 @@
   ]
  }
 },{
- "id": "onnhehnzj5r",
+ "id": "7s64fxepjrj",
  "name": "E6 avkjøring til Abildsø",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -2395,49 +2395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -2460,28 +2460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -2499,9 +2499,9 @@
   ]
  }
 },{
- "id": "wtplu2tc9i",
+ "id": "xq43mu6szao",
  "name": "E6 Abildsø",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -2520,49 +2520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -2585,28 +2585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -2624,9 +2624,9 @@
   ]
  }
 },{
- "id": "94yxgxpxgsu",
+ "id": "jocdo6bvsw",
  "name": "Lambertseterveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -2645,49 +2645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -2710,28 +2710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -2749,9 +2749,9 @@
   ]
  }
 },{
- "id": "8vpdn0vav97",
+ "id": "khv95kwx5s9",
  "name": "Sandstuveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -2770,49 +2770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -2835,28 +2835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -2874,9 +2874,9 @@
   ]
  }
 },{
- "id": "r2jua119nyl",
+ "id": "zd555y0np0i",
  "name": "E18 Mosseveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -2895,49 +2895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -2960,28 +2960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -2999,9 +2999,9 @@
   ]
  }
 },{
- "id": "fmiqyrjzrjs",
+ "id": "nkdwo565i9q",
  "name": "E6 Alnabru",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -3020,49 +3020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -3085,28 +3085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -3124,9 +3124,9 @@
   ]
  }
 },{
- "id": "aqsjkb922iw",
+ "id": "ijcq9ia4i2b",
  "name": "Alfaset 3 industrivei",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -3145,49 +3145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -3210,28 +3210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -3249,9 +3249,9 @@
   ]
  }
 },{
- "id": "54opd73qxzw",
+ "id": "uevglsblyk",
  "name": "RV163 Veitvet",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -3270,49 +3270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -3335,28 +3335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -3374,9 +3374,9 @@
   ]
  }
 },{
- "id": "yadm8wrmj9",
+ "id": "ce50c4yufah",
  "name": "RV4 Linderud",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -3395,49 +3395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -3460,28 +3460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -3499,9 +3499,9 @@
   ]
  }
 },{
- "id": "yk0xurzldre",
+ "id": "0yubmv2mxk",
  "name": "Ring 3 Gaustad",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -3520,49 +3520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -3585,28 +3585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -3624,9 +3624,9 @@
   ]
  }
 },{
- "id": "xzcbzkoxbr",
+ "id": "sthrg4b1v4",
  "name": "Sørkedalsveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -3645,49 +3645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -3710,28 +3710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -3749,9 +3749,9 @@
   ]
  }
 },{
- "id": "jw97ofxstv8",
+ "id": "y1q5bmblsnc",
  "name": "Fritjof Nansens vei",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -3770,49 +3770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -3835,28 +3835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -3874,9 +3874,9 @@
   ]
  }
 },{
- "id": "hopdhnlcms5",
+ "id": "n8j9ibgu8wm",
  "name": "Drammensveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -3895,49 +3895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -3960,28 +3960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -3999,9 +3999,9 @@
   ]
  }
 },{
- "id": "13bi9nbmjfi",
+ "id": "uke6dz4jugn",
  "name": "Ytre Ringvei",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -4020,49 +4020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -4085,28 +4085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -4124,9 +4124,9 @@
   ]
  }
 },{
- "id": "cgfd3savzmk",
+ "id": "14pqekttfm9",
  "name": "Smalvollveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -4145,49 +4145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -4210,28 +4210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -4249,9 +4249,9 @@
   ]
  }
 },{
- "id": "w1p755uz3w9",
+ "id": "irudrlhiuf",
  "name": "Teisenveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -4270,49 +4270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -4335,28 +4335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -4374,9 +4374,9 @@
   ]
  }
 },{
- "id": "dmi3jx4681n",
+ "id": "s31tqmgfh39",
  "name": "Strømsveien",
- "barrier": "Osloringen",
+ "group": "Osloringen",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -4395,49 +4395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -4460,28 +4460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -4499,9 +4499,9 @@
   ]
  }
 },{
- "id": "p22zfsh8l5e",
+ "id": "o90vwsp18f",
  "name": "Ring 3 Teisen",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -4520,49 +4520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -4585,28 +4585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -4624,9 +4624,9 @@
   ]
  }
 },{
- "id": "i3vnxnskajf",
+ "id": "6j2uvk46ynx",
  "name": "Østensjøveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -4645,49 +4645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -4710,28 +4710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -4749,9 +4749,9 @@
   ]
  }
 },{
- "id": "43mnfistnbf",
+ "id": "155lv71gofe",
  "name": "E6 Svartdalstunnelen",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -4770,49 +4770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -4835,28 +4835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -4874,9 +4874,9 @@
   ]
  }
 },{
- "id": "xqon104tufc",
+ "id": "1ts9zs1zfdz",
  "name": "Påkjøring E6 Lodalen",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -4895,49 +4895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -4960,28 +4960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -4999,9 +4999,9 @@
   ]
  }
 },{
- "id": "mjndobh17ja",
+ "id": "vgqpqd96y7",
  "name": "Avkjøring E6 Lodalen",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -5020,49 +5020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -5085,28 +5085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -5124,9 +5124,9 @@
   ]
  }
 },{
- "id": "ukha4cf4y3",
+ "id": "j861tzvyjpd",
  "name": "E6 Lodalen",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -5145,49 +5145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -5210,28 +5210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -5249,9 +5249,9 @@
   ]
  }
 },{
- "id": "l067wjgxv5m",
+ "id": "2d67yebmcuj",
  "name": "Konows gate",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -5270,49 +5270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -5335,28 +5335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -5374,9 +5374,9 @@
   ]
  }
 },{
- "id": "xhaxyc1t1ul",
+ "id": "xbmmmefbdla",
  "name": "Dyvekes vei",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -5395,49 +5395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -5460,28 +5460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -5499,9 +5499,9 @@
   ]
  }
 },{
- "id": "1t5ij2h2gjh",
+ "id": "hf3hy9se278",
  "name": "Kværnerveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -5520,49 +5520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -5585,28 +5585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -5624,9 +5624,9 @@
   ]
  }
 },{
- "id": "ivrjidiz6t",
+ "id": "5f8iirzsq8e",
  "name": "St. Halvardsgate",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -5645,49 +5645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -5710,28 +5710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -5749,9 +5749,9 @@
   ]
  }
 },{
- "id": "1anvpmsmqexh",
+ "id": "fp1pdvl7ao9",
  "name": "Ensjøveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -5770,49 +5770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -5835,28 +5835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -5874,9 +5874,9 @@
   ]
  }
 },{
- "id": "q66iursfa69",
+ "id": "1wq4b7yh1ym",
  "name": "Økernveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -5895,49 +5895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -5960,28 +5960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -5999,9 +5999,9 @@
   ]
  }
 },{
- "id": "60no0it9vg7",
+ "id": "pxoqd86kqh8",
  "name": "Grenseveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -6020,49 +6020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -6085,28 +6085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -6124,9 +6124,9 @@
   ]
  }
 },{
- "id": "fo12uwjgph",
+ "id": "8dd40v151rb",
  "name": "Hasleveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -6145,49 +6145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -6210,28 +6210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -6249,9 +6249,9 @@
   ]
  }
 },{
- "id": "w6woj8odps8",
+ "id": "k77kldb3y1b",
  "name": "Rv4 Carl Berner",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -6270,49 +6270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -6335,28 +6335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -6374,9 +6374,9 @@
   ]
  }
 },{
- "id": "rv6f8gn1rj",
+ "id": "66f0frrvvqv",
  "name": "Jørgen Løvlandsgate",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -6395,49 +6395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -6460,28 +6460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -6499,9 +6499,9 @@
   ]
  }
 },{
- "id": "3gqb620bbqf",
+ "id": "0dtscbpcz7l",
  "name": "Kildeveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -6520,49 +6520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -6585,28 +6585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -6624,9 +6624,9 @@
   ]
  }
 },{
- "id": "2q6vw196xj7",
+ "id": "xe2l2081jdg",
  "name": "Avkjøring fra Sinsenkrysset vestg. til Kjelsåsveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -6645,49 +6645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -6710,28 +6710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -6749,9 +6749,9 @@
   ]
  }
 },{
- "id": "a7r9tbdflxj",
+ "id": "cn65h857pwv",
  "name": "Påkjøring fra HNH gt mot Sinsenkrysset østg",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -6770,49 +6770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -6835,28 +6835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -6874,9 +6874,9 @@
   ]
  }
 },{
- "id": "4wo4qlbcmis",
+ "id": "37x5kl7bq92",
  "name": "Ring 3 Sinsenkrysset",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -6895,49 +6895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -6960,28 +6960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -6999,9 +6999,9 @@
   ]
  }
 },{
- "id": "kehutvprchl",
+ "id": "529u48ezdpg",
  "name": "Fagerheimgata nord (Askergata)",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -7020,49 +7020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -7085,28 +7085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -7124,9 +7124,9 @@
   ]
  }
 },{
- "id": "5sh01tuucjw",
+ "id": "z5l03iuhju",
  "name": "Fagerheimgata sør (Askergata)",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -7145,49 +7145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -7210,28 +7210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -7249,9 +7249,9 @@
   ]
  }
 },{
- "id": "y1a2omwr4vg",
+ "id": "9r5xfcwpqwi",
  "name": "Ole Bulls gate",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -7270,49 +7270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -7335,28 +7335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -7374,9 +7374,9 @@
   ]
  }
 },{
- "id": "xetbi0pvwq",
+ "id": "i9jkii5bs7",
  "name": "Vogts gate",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -7395,49 +7395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -7460,28 +7460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -7499,9 +7499,9 @@
   ]
  }
 },{
- "id": "4vpvuzc5yw6",
+ "id": "d5od9ggue0n",
  "name": "Sandakerveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -7520,49 +7520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -7585,28 +7585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -7624,9 +7624,9 @@
   ]
  }
 },{
- "id": "jzdndyq16w",
+ "id": "y70387v783",
  "name": "Myhrens verksted",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -7645,49 +7645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -7710,28 +7710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -7749,9 +7749,9 @@
   ]
  }
 },{
- "id": "1v418514tdd",
+ "id": "4eomai0v08h",
  "name": "Uelands gate",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -7770,49 +7770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -7835,28 +7835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -7874,9 +7874,9 @@
   ]
  }
 },{
- "id": "tdltsqyj83a",
+ "id": "3h0u532vx45",
  "name": "Kierschows gate",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -7895,49 +7895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -7960,28 +7960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -7999,9 +7999,9 @@
   ]
  }
 },{
- "id": "i7aablpxiw",
+ "id": "7gzl0zxjkyp",
  "name": "Tåsenveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -8020,49 +8020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -8085,28 +8085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -8124,9 +8124,9 @@
   ]
  }
 },{
- "id": "0b6vf8se9np",
+ "id": "qq1hrb7ykl",
  "name": "Sognsveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -8145,49 +8145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -8210,28 +8210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -8249,9 +8249,9 @@
   ]
  }
 },{
- "id": "bqi359sil6l",
+ "id": "yxcxeoe97c",
  "name": "Blindernveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -8270,49 +8270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -8335,28 +8335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -8374,9 +8374,9 @@
   ]
  }
 },{
- "id": "5gw6p61glo",
+ "id": "nj6rxnmyco",
  "name": "Suhms gate",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -8395,49 +8395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -8460,28 +8460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -8499,9 +8499,9 @@
   ]
  }
 },{
- "id": "kzs4blt64eh",
+ "id": "6l9fi1xto73",
  "name": "Apalveien",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -8520,49 +8520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -8585,28 +8585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -8624,9 +8624,9 @@
   ]
  }
 },{
- "id": "ybj129wcrn7",
+ "id": "qja6elgukab",
  "name": "Dronning Blancas vei",
- "barrier": "Indre ring",
+ "group": "Indre ring",
  "tariff": {
   "type": "Toveis-betaling",
   "groups": [
@@ -8645,49 +8645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 19,
        "high": 23
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 17,
        "high": 21
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 4,
        "high": 8
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -8710,28 +8710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -8749,9 +8749,9 @@
   ]
  }
 },{
- "id": "ub9ho9b6d9",
+ "id": "rzeceq2o36r",
  "name": "E18 Fiskevollbukta",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -8770,49 +8770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -8835,28 +8835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -8874,9 +8874,9 @@
   ]
  }
 },{
- "id": "4ni8912x67b",
+ "id": "6tdcx9c919k",
  "name": "Rv4 Skillebekk",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -8895,49 +8895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -8960,28 +8960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -8999,9 +8999,9 @@
   ]
  }
 },{
- "id": "0v4paj7q35j",
+ "id": "nvs8n90jglr",
  "name": "Rv163 Stovner",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -9020,49 +9020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -9085,28 +9085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -9124,9 +9124,9 @@
   ]
  }
 },{
- "id": "35omm3h003d",
+ "id": "e94mg9uc075",
  "name": "Høybråtenveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -9145,49 +9145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -9210,28 +9210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -9249,9 +9249,9 @@
   ]
  }
 },{
- "id": "jf3t0u406f",
+ "id": "4o4ec1qumxe",
  "name": "Starveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -9270,49 +9270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -9335,28 +9335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -9374,9 +9374,9 @@
   ]
  }
 },{
- "id": "tpcwz2eg5j",
+ "id": "d49ryabtel",
  "name": "Karihaugen",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -9395,49 +9395,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -9460,28 +9460,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -9499,9 +9499,9 @@
   ]
  }
 },{
- "id": "8xvyzr8hvnb",
+ "id": "dwob2pb3agk",
  "name": "Gamleveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -9520,49 +9520,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -9585,28 +9585,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -9624,9 +9624,9 @@
   ]
  }
 },{
- "id": "sca6el7ecdm",
+ "id": "ozqyp6rcs17",
  "name": "Enebakkveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -9645,49 +9645,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -9710,28 +9710,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -9749,9 +9749,9 @@
   ]
  }
 },{
- "id": "ezytt3e93xj",
+ "id": "spcg3ffy45",
  "name": "E6 Taraldrud",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -9770,49 +9770,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -9835,28 +9835,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -9874,9 +9874,9 @@
   ]
  }
 },{
- "id": "thag09kfe1",
+ "id": "suuw2dwsph",
  "name": "Skiveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -9895,49 +9895,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -9960,28 +9960,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -9999,9 +9999,9 @@
   ]
  }
 },{
- "id": "1j3do5zt1dt",
+ "id": "5frssohox8",
  "name": "Fjellveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -10020,49 +10020,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -10085,28 +10085,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -10124,9 +10124,9 @@
   ]
  }
 },{
- "id": "bitf23orkm8",
+ "id": "pn450lkstri",
  "name": "Rosenholmveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -10145,49 +10145,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -10210,28 +10210,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0
@@ -10249,9 +10249,9 @@
   ]
  }
 },{
- "id": "0bw3g9ra86qv",
+ "id": "4577su8v2q8",
  "name": "Ljansbrukveien",
- "barrier": "Bygrensen",
+ "group": "Bygrensen",
  "tariff": {
   "type": "Enveis-betaling",
   "groups": [
@@ -10270,49 +10270,49 @@
     ],
     "tax": [
      {
-      "name": "Diesel",
+      "type": "Diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Bensin",
+      "type": "Bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Hybrid diesel",
+      "type": "Hybrid diesel",
       "rate": {
        "low": 25,
        "high": 31
       }
      },
      {
-      "name": "Hybrid bensin",
+      "type": "Hybrid bensin",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Ladbar hybrid",
+      "type": "Ladbar hybrid",
       "rate": {
        "low": 21,
        "high": 28
       }
      },
      {
-      "name": "Elbil",
+      "type": "Elbil",
       "rate": {
        "low": 5,
        "high": 10
       }
      },
      {
-      "name": "Hydrogen",
+      "type": "Hydrogen",
       "rate": {
        "low": 0,
        "high": 0
@@ -10335,28 +10335,28 @@
     ],
     "tax": [
      {
-      "name": "Euro V og eldre",
+      "type": "Euro V og eldre",
       "rate": {
        "low": 86,
        "high": 101
       }
      },
      {
-      "name": "Euro VI",
+      "type": "Euro VI",
       "rate": {
        "low": 53,
        "high": 69
       }
      },
      {
-      "name": "Nullutslipp",
+      "type": "Nullutslipp",
       "rate": {
        "low": 0,
        "high": 0
       }
      },
      {
-      "name": "Andre",
+      "type": "Andre",
       "rate": {
        "low": 0,
        "high": 0

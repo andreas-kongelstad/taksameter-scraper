@@ -79,7 +79,7 @@ let getBarrier = async (anchor: string) => {
   });
 
   // Get the tariff group name
-  tollBoth.barrier = await page.evaluate(() => {
+  tollBoth.group = await page.evaluate(() => {
     return document.querySelector('#placeholder-content > div > article > div > div > div.tollbooth__meta-info > div.column.tariff-group > span').innerHTML; 
   });
 
@@ -101,13 +101,13 @@ let getBarrier = async (anchor: string) => {
   taxArrayGroup1.forEach(element => {
     if(count == 0) {
       tax = {
-        name: '',
+        type: '',
         rate: {
           low: 0,
           high: 0
         }
       }
-      tax.name = element
+      tax.type = element
       count++;
     } else if(count == 1) {
       tax.rate.low = +element.replace(/[^0-9]/g,'');
@@ -129,13 +129,13 @@ let getBarrier = async (anchor: string) => {
   taxArrayGroup2.forEach(element => {
     if(count == 0) {
       tax = {
-        name: '',
+        type: '',
         rate: {
           low: 0,
           high: 0
         }
       }
-      tax.name = element
+      tax.type = element
       count++;
     } else if(count == 1) {
       tax.rate.low = +element.replace(/[^0-9]/g,'');
@@ -210,12 +210,7 @@ let getBarrier = async (anchor: string) => {
   return tollBoth;
 }
 
-/*
 getAnchorList().then((anchorList: Array<string>) => { 
-  // fs.writeFile(__dirname + '/../../tollboth-server/src/data/tollboths.json', '[', function(err) {
-  //   if (err) throw err;
-  // });
-
   fs.writeFile(__dirname + '/barriers.json', '[', function(err) {
     if (err) throw err;
   });
@@ -229,7 +224,6 @@ getAnchorList().then((anchorList: Array<string>) => {
         if(anchorList.length-1 == i) {
           deliminator = ']' 
         }
-
         fs.appendFile(__dirname + '/barriers.json', (JSON.stringify(tollBoth, null,1)+deliminator) , function (err) {
           if (err) throw err;
        });
@@ -237,11 +231,9 @@ getAnchorList().then((anchorList: Array<string>) => {
       });
     }, i*3000 );
   }
-
 });
-*/
 
-
+/*
 
 let createFlatFile = async () => { 
 
@@ -255,23 +247,7 @@ let createFlatFile = async () => {
 }
 
 
-function compare(a, b) {
-  // Use toUpperCase() to ignore character casing
-  const genreA = a.id.toUpperCase();
-  const genreB = b.id.toUpperCase();
-
-  let comparison = 0;
-  if (genreA > genreB) {
-    comparison = 1;
-  } else if (genreA < genreB) {
-    comparison = -1;
-  }
-  return comparison;
-}
-
 createFlatFile().then((tollbothList: Array<TollBoth>) => { 
-  
-  var index = 1;
 
   var tollbothRows = new Array<TollbothRow>();
   
@@ -280,16 +256,15 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
       group.rushhour.forEach(rushhour => {
         group.tax.forEach(tax => {
           var tollbothRow = new TollbothRow()
-          //tollbothRow.index = index++;
           tollbothRow.id = tollboth.id;
           tollbothRow.name = tollboth.name;
-          tollbothRow.barrier = tollboth.barrier;
+          tollbothRow.group = tollboth.group;
           tollbothRow.tariffType = tollboth.tariff.type;
           tollbothRow.tariffGroupId = group.id;
           tollbothRow.tariffGroupName = group.name;
           tollbothRow.tariffGroupRushHourStart = rushhour.start;
           tollbothRow.tariffGroupRushHourEnd = rushhour.end;
-          tollbothRow.tariffGroupTaxName = tax.name;
+          tollbothRow.tariffGroupTaxType = tax.type;
           tollbothRow.tariffGroupTaxRateHigh = tax.rate.high;
           tollbothRow.tariffGroupTaxRateLow = tax.rate.low;
           tollbothRow.geometryType = tollboth.geometry.type;
@@ -301,20 +276,6 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
     });    
   });
 
-  // fs.writeFile(__dirname + '/barriers_flat.txt', '[', function(err) {
-  //   if (err) throw err;
-  // });
-
-  // for(let i = 0; i < tollbothRows.length; i++) {
-
-  //   var deliminator = ',';
-  //   if(tollbothRows.length-1 == i) {
-  //     deliminator = ']' 
-  //   }
-  //   fs.appendFile(__dirname + '/barriers_flat.txt', (JSON.stringify(tollbothRows[i], null,1)+deliminator), function (err) {
-  //     if (err) throw err;
-  //   });
-  // }
 
   // FLAT JSON FILE
   fs.writeFile(__dirname + '/barriers_flat.json', '[\n', function(err) {
@@ -337,206 +298,28 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
     if (err) throw err;
   });
 
+  
 
   // FLAT TEXT FILE
-  // fs.writeFile(__dirname + '/barriers_flat.csv', 'id;name;barrier;tariffType;tariffGroupId;tariffGroupName;tariffGroupRushHourStart;tariffGroupRushHourEnd;tariffGroupTaxName;tariffGroupTaxRateLow;tariffGroupTaxRateLow;geometryType;geometryLatitude;geometryLongitude\r\n', function(err) {
-  //   if (err) throw err;
-  // });
+  fs.writeFile(__dirname + '/barriers_flat.csv', 'id;name;barrier;tariffType;tariffGroupId;tariffGroupName;tariffGroupRushHourStart;tariffGroupRushHourEnd;tariffGroupTaxName;tariffGroupTaxRateLow;tariffGroupTaxRateLow;geometryType;geometryLatitude;geometryLongitude\r\n', function(err) {
+    if (err) throw err;
+  });
 
-  // for(let i = 0; i < tollbothRows.length; i++) {
-  //   var linefeed = '\n';
-  //   if(tollbothRows.length-1 == i) {
-  //     linefeed = '' 
-  //   }
+  for(let i = 0; i < tollbothRows.length; i++) {
+    var linefeed = '\n';
+    if(tollbothRows.length-1 == i) {
+      linefeed = '' 
+    }
 
-  //   //tollbothRows[i].index = i;
-  //   fs.appendFile(__dirname + '/barriers_flat.csv', tollbothRows[i].toString(';') + linefeed, function (err) {
-  //     if (err) throw err;
-  //   });
-  // }
+    //tollbothRows[i].index = i;
+    fs.appendFile(__dirname + '/barriers_flat.csv', tollbothRows[i].toString(';') + linefeed, function (err) {
+      if (err) throw err;
+    });
+  }
 
     //console.log(tollbothRows);
     console.log('Done!');
 
 });
 
-
-
-  
-
-
-
-
-
-
-
-/*
-(async () => {
-
-  const tollboth: TollBoth = {
-    "id": "ujzr6yywpq",
-    "name": "Pårampe Granfoss fra E18",
-    "barrier": "Bygrensen",
-    "tariff": {
-     "type": TariffType.oneway,
-     "groups": [
-      {
-       "id": 1,
-       "name": "Takstgruppe 1",
-       "rushhour": [
-        {
-         "start": "06:30",
-         "end": "09:00"
-        },
-        {
-         "start": "15:00",
-         "end": "17:00"
-        }
-       ],
-       "tax": [
-        {
-         "name": "Diesel",
-         "rate": {
-          "low": 25,
-          "high": 31
-         }
-        },
-        {
-         "name": "Bensin",
-         "rate": {
-          "low": 21,
-          "high": 28
-         }
-        },
-        {
-         "name": "Hybrid diesel",
-         "rate": {
-          "low": 25,
-          "high": 31
-         }
-        },
-        {
-         "name": "Hybrid bensin",
-         "rate": {
-          "low": 21,
-          "high": 28
-         }
-        },
-        {
-         "name": "Ladbar hybrid",
-         "rate": {
-          "low": 21,
-          "high": 28
-         }
-        },
-        {
-         "name": "Elbil",
-         "rate": {
-          "low": 5,
-          "high": 10
-         }
-        },
-        {
-         "name": "Hydrogen",
-         "rate": {
-          "low": 0,
-          "high": 0
-         }
-        }
-       ]
-      },
-      {
-       "id": 2,
-       "name": "Takstgruppe 2",
-       "rushhour": [
-        {
-         "start": "06:30",
-         "end": "09:00"
-        },
-        {
-         "start": "15:00",
-         "end": "17:00"
-        }
-       ],
-       "tax": [
-        {
-         "name": "Euro V og eldre",
-         "rate": {
-          "low": 86,
-          "high": 101
-         }
-        },
-        {
-         "name": "Euro VI",
-         "rate": {
-          "low": 53,
-          "high": 69
-         }
-        },
-        {
-         "name": "Nullutslipp",
-         "rate": {
-          "low": 0,
-          "high": 0
-         }
-        },
-        {
-         "name": "Andre",
-         "rate": {
-          "low": 0,
-          "high": 0
-         }
-        }
-       ]
-      }
-     ]
-    },
-    "geometry": {
-     "type": "Point",
-     "coordinates": [
-      59.909161,
-      10.626336000000038
-     ]
-    }
-   };
-
-
-   let tollbothRows: TollbothRow[] = new Array<TollbothRow>();
-
-
-
-   let tollbothRow: TollbothRow = new TollbothRow();
-   tollbothRow.id = tollboth.id;
-   tollbothRow.name = tollboth.name;
-   tollbothRow.barrier = tollboth.barrier
-   tollbothRow.geometryType = tollboth.geometry.type;
-   tollbothRow.geometryLatitude = tollboth.geometry.coordinates[0];
-   tollbothRow.geometryLongitude = tollboth.geometry.coordinates[1];
-   tollbothRow.tariffType = tollboth.tariff.type;   
-
-   
-   tollboth.tariff.groups.forEach(group => {
-    
-    tollbothRow.tariffGroupId = group.id;
-    tollbothRow.tariffGroupName = group.name;
-
-    group.tax.forEach(tax => {
-      tollbothRow.tariffGroupTaxName = tax.name;
-      tollbothRow.tariffGroupTaxRateLow = tax.rate.low;
-      tollbothRow.tariffGroupTaxRateHigh = tax.rate.high;
-    });
-    
-    group.rushhour.forEach(rushhour => {
-      tollbothRow.tariffGroupRushHourStart = rushhour.start;
-      tollbothRow.tariffGroupRushHourEnd = rushhour.end;
-    });
-
-     
-   });
-   
-
-
-   console.log(tollbothRow.toString(';'));
-
-})();
 */

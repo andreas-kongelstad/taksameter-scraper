@@ -1,13 +1,13 @@
 export class TollbothRow {
     id: string;
     name: string;
-    barrier: string;
+    group: string;
     tariffType: TariffType;
     tariffGroupId: number;
     tariffGroupName: string;
     tariffGroupRushHourStart: string;
     tariffGroupRushHourEnd: string;
-    tariffGroupTaxName: string;
+    tariffGroupTaxType: string;
     tariffGroupTaxRateLow: number;
     tariffGroupTaxRateHigh: number; 
     geometryType: string;
@@ -15,14 +15,14 @@ export class TollbothRow {
     geometryLongitude: number;
     constructor() {} 
     public toString = (deliminator: string) : string => {
-        return `${this.id}${deliminator}${this.name}${deliminator}${this.barrier}${deliminator}${this.tariffType}${deliminator}${this.tariffGroupId}${deliminator}${this.tariffGroupName}${deliminator}${this.tariffGroupRushHourStart}${deliminator}${this.tariffGroupRushHourEnd}${deliminator}${this.tariffGroupTaxName}${deliminator}${this.tariffGroupTaxRateLow}${deliminator}${this.tariffGroupTaxRateHigh}${deliminator}${this.geometryType}${deliminator}${this.geometryLatitude}${deliminator}${this.geometryLongitude}`;
+        return `${this.id}${deliminator}${this.name}${deliminator}${this.group}${deliminator}${this.tariffType}${deliminator}${this.tariffGroupId}${deliminator}${this.tariffGroupName}${deliminator}${this.tariffGroupRushHourStart}${deliminator}${this.tariffGroupRushHourEnd}${deliminator}${this.tariffGroupTaxType}${deliminator}${this.tariffGroupTaxRateLow}${deliminator}${this.tariffGroupTaxRateHigh}${deliminator}${this.geometryType}${deliminator}${this.geometryLatitude}${deliminator}${this.geometryLongitude}`;
     } 
   }
 
 export class TollBoth {
     id: string;
     name: string;   
-    barrier?: string;
+    group?: string;
     tariff?: Tariff;
     geometry?: Geometry;
   }
@@ -45,7 +45,7 @@ export interface RushHour {
 }
 
   export interface Tax {
-    name: string;
+    type: string;
     rate: TaxRate;
   }
   
