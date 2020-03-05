@@ -231,7 +231,13 @@ getAnchorList().then((anchorList: Array<string>) => {
       });
     }, i*3000 );
   }
+  console.log(' Create a flat file 1');
+}).then( () => {
+  console.log(' Create a flat file 2');
 });
+
+/// UNCOMMENT BELOW TO TRANSFORM/FLATTEN JSON FILE CREATED WITH getAnchorList() ABOVE
+/// NB: remember to uncommet getAnchorList() berfore rerunning dev
 
 /*
 
@@ -253,7 +259,7 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
   
   tollbothList.map(tollboth => {    
     tollboth.tariff.groups.forEach(group => {
-      group.rushhour.forEach(rushhour => {
+      group.rushhour.forEach(rushhour => { 
         group.tax.forEach(tax => {
           var tollbothRow = new TollbothRow()
           tollbothRow.id = tollboth.id;
@@ -298,8 +304,6 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
     if (err) throw err;
   });
 
-  
-
   // FLAT TEXT FILE
   fs.writeFile(__dirname + '/barriers_flat.csv', 'id;name;barrier;tariffType;tariffGroupId;tariffGroupName;tariffGroupRushHourStart;tariffGroupRushHourEnd;tariffGroupTaxName;tariffGroupTaxRateLow;tariffGroupTaxRateLow;geometryType;geometryLatitude;geometryLongitude\r\n', function(err) {
     if (err) throw err;
@@ -317,9 +321,8 @@ createFlatFile().then((tollbothList: Array<TollBoth>) => {
     });
   }
 
-    //console.log(tollbothRows);
-    console.log('Done!');
+  //console.log(tollbothRows);
+  console.log('Done!');
 
 });
-
 */
